@@ -1,5 +1,6 @@
 # grdb
-Dummy DB tester CLI app on the JVM.
+Dummy DB tester CLI app on the JVM.  
+Just a siple script which downloads and uses the DB driver of your choice, runs your Groovy [script](http://docs.groovy-lang.org/latest/html/documentation/#_interacting_with_a_sql_database) (see: [Sql JavaDoc](http://docs.groovy-lang.org/latest/html/api/groovy/sql/Sql.html)) and prints out the result in JSON.
 
 [![asciicast](https://asciinema.org/a/206545.png)](https://asciinema.org/a/206545)
 
@@ -16,9 +17,6 @@ Dummy DB tester CLI app on the JVM.
 ```
 
 # Query Examples
-
-[Interacting with a SQL database](http://docs.groovy-lang.org/latest/html/documentation/#_interacting_with_a_sql_database)  
-[Sql JavaDoc](http://docs.groovy-lang.org/latest/html/api/groovy/sql/Sql.html)
 
 ```
 sql.rows 'select * from table'
